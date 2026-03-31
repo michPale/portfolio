@@ -516,7 +516,24 @@ h1 {
 
   .content {
     margin-left: 0;
-    padding: 80px 24px 32px;
+    padding: 80px 20px 32px;
+  }
+
+  .project-card {
+    border-radius: 8px;
+  }
+
+  .about-section {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 48px;
+    padding-top: 40px;
+  }
+
+  .section-heading {
+    margin-bottom: 16px;
   }
 }
 
@@ -524,6 +541,13 @@ h1 {
 @media (max-width: 420px) {
   .content {
     padding: 76px 16px 24px;
+  }
+
+  .about-section {
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .about-contact {
