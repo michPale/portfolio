@@ -61,7 +61,12 @@ function renderProjects() {
 
 // ===== Render Client Logos =====
 function renderClients() {
-  const container = document.getElementById('clientLogos');
+  ['clientLogos', 'clientLogosMobile'].forEach((id) => {
+    renderClientLogos(document.getElementById(id));
+  });
+}
+
+function renderClientLogos(container) {
   if (!container) return;
 
   const track = document.createElement('div');
