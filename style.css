@@ -317,18 +317,13 @@ h1 {
 }
 
 .project-image {
-  aspect-ratio: 25 / 18;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
   position: relative;
 }
 
 .project-image img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  display: block;
 }
 
 .placeholder-label {
