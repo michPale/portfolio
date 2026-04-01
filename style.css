@@ -314,7 +314,6 @@ h1 {
 .project-card {
   border-radius: 12px;
   overflow: hidden;
-  background: var(--color-surface);
   transition: transform 0.4s var(--ease-out), box-shadow 0.4s var(--ease-out);
 }
 
